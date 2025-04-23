@@ -1,46 +1,25 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Career Path Assistant",
+  "name": "Dallas College Assistant",
   "colors": {
-    "primary": "#2563EB",
-    "light": "#3B82F6",
-    "dark": "#1D4ED8"
+    "primary": "#003B71",
+    "light": "#0056B3",
+    "dark": "#002855"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Quick Help",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Common Questions",
             "pages": [
-              "introduction",
               "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "financial-aid",
+              "academic-support",
+              "career-services"
             ]
           }
         ]
@@ -49,39 +28,36 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Support",
-          "href": "mailto:support@careerpathassistant.com",
-          "icon": "envelope"
+          "anchor": "Dallas College Home",
+          "href": "https://www.dallascollege.edu",
+          "icon": "house"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://www.dallascollege.edu/publishingimages/logos/dc-logo-master.svg",
+    "dark": "https://www.dallascollege.edu/publishingimages/logos/dc-logo-master.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "Contact",
-        "href": "mailto:support@careerpathassistant.com"
+        "label": "Contact Support",
+        "href": "mailto:support@dallascollege.edu"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Try Now",
-      "href": "https://app.careerpathassistant.com"
+      "label": "Ask a Question",
+      "href": "#chat"
     }
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/careerpathassistant",
-      "linkedin": "https://linkedin.com/company/careerpathassistant"
+      "facebook": "https://www.facebook.com/DallasCollege",
+      "twitter": "https://twitter.com/DallasCollege",
+      "instagram": "https://www.instagram.com/dallascollege",
+      "linkedin": "https://www.linkedin.com/school/dallas-college"
     }
   }
 }

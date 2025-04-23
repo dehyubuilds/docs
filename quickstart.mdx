@@ -1,59 +1,87 @@
 ---
-title: 'Quickstart'
-description: 'Start planning your career path in under 5 minutes'
+title: 'Dallas College Assistant'
+description: 'Your virtual assistant for all Dallas College needs'
 ---
 
-## Getting Started
+<div className="chat-interface">
+  <div className="chat-messages">
+    <div className="message bot">
+      <p>Hello! I'm your Dallas College Assistant. How can I help you today?</p>
+    </div>
+  </div>
 
-Learn how to use Career Path Assistant to plan your academic journey and achieve your career goals.
+  <div className="common-questions">
+    <h2>Common Questions</h2>
+    <div className="question-grid">
+      <Card title="Financial Aid" icon="money-bill" href="/financial-aid">
+        Questions about scholarships, grants, and payment options
+      </Card>
+      <Card title="Academic Support" icon="book" href="/academic-support">
+        Tutoring, counseling, and academic resources
+      </Card>
+      <Card title="Career Services" icon="briefcase" href="/career-services">
+        Job opportunities, internships, and career planning
+      </Card>
+      <Card title="Student Resources" icon="life-ring" href="/student-resources">
+        Housing, food security, and emergency assistance
+      </Card>
+    </div>
+  </div>
 
-### Set up your profile
+  <div className="chat-input">
+    <input type="text" placeholder="Type your question here..." />
+    <button>Send</button>
+  </div>
+</div>
 
-<AccordionGroup>
-  <Accordion icon="user" title="Create your account">
-    To get started with Career Path Assistant:
-    1. Visit our [signup page](https://app.careerpathassistant.com/signup)
-    2. Create an account using your university email
-    3. Complete your profile with your academic interests and career goals
-  </Accordion>
-  <Accordion icon="university" title="Connect your university">
-    Connect your university's curriculum data:
-    1. Select your university from our supported institutions
-    2. Grant access to your academic records (optional)
-    3. Choose your current program and year of study
-  </Accordion>
-</AccordionGroup>
-
-### Start planning your path
-
-<AccordionGroup>
-  <Accordion icon="route" title="Explore career paths">
-    Discover potential career paths:
-    1. Browse through different career options
-    2. View required skills and courses
-    3. Compare different paths and their requirements
-  </Accordion>
-  <Accordion icon="list-check" title="Get course recommendations">
-    Receive personalized course suggestions:
-    1. Select your target career path
-    2. View recommended courses for your program
-    3. Create your academic plan
-  </Accordion>
-</AccordionGroup>
-
-## Key Features
-
-<CardGroup>
-  <Card title="Smart Recommendations" icon="brain" href="/essentials/markdown">
-    Get AI-powered course suggestions based on your goals
-  </Card>
-  <Card title="Progress Tracking" icon="chart-line" href="/essentials/code">
-    Monitor your academic progress and stay on track
-  </Card>
-  <Card title="Career Insights" icon="lightbulb" href="/essentials/images">
-    Learn about different career paths and required skills
-  </Card>
-  <Card title="Academic Planning" icon="calendar" href="/essentials/reusable-snippets">
-    Plan your course schedule for upcoming semesters
-  </Card>
-</CardGroup>
+<style>{`
+  .chat-interface {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .chat-messages {
+    background: #f5f5f5;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    min-height: 200px;
+  }
+  .message {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+  }
+  .message.bot {
+    background: #fff;
+    margin-right: 2rem;
+  }
+  .common-questions {
+    margin: 2rem 0;
+  }
+  .question-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .chat-input {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .chat-input input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  .chat-input button {
+    padding: 0.75rem 1.5rem;
+    background: #003B71;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+`}</style>
