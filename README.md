@@ -1,32 +1,34 @@
-# Mintlify Starter Kit Guide
+# Career Path Assistant Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the documentation for Career Path Assistant - an intelligent platform that helps students discover the best courses to take based on their career goals, powered by university curriculum data.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## About Career Path Assistant
 
-### Development
+Career Path Assistant is a smart academic companion built for student success. Our AI assistant turns complex course catalogs into tailored career pathways, helping students:
+- Discover relevant courses for their career goals
+- Plan their academic journey
+- Track their progress
+- Make informed decisions about their education
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## Development
 
-```
+To preview the documentation changes locally:
+
+1. Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify):
+```bash
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
-
-```
+2. Run the development server:
+```bash
 mintlify dev
 ```
 
-### Publishing Changes
+## Publishing Changes
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+Changes will be automatically deployed to production after pushing to the default branch.
 
-#### Troubleshooting
+### Troubleshooting
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- If Mintlify dev isn't running, try `mintlify install` to re-install dependencies
+- If pages load as 404, ensure you're in a folder with `docs.json`
