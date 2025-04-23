@@ -49,7 +49,7 @@
     "primary": {
       "type": "button",
       "label": "Ask a Question",
-      "href": "#chat"
+      "href": "/quickstart"
     }
   },
   "footer": {
