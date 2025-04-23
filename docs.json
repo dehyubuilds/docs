@@ -1,7 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Dallas College Assistant",
+  "name": "Career Path Navigator",
+  "description": "An intelligent career assistant that helps students discover the best courses to take based on their career goals—powered by your university's curriculum data.",
   "colors": {
     "primary": "#003B71",
     "light": "#0056B3",
